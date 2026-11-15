@@ -96,7 +96,7 @@
             </li>
 
             <!-- Modul Sarana & Prasarana (Inventaris) -->
-            <li class="menu-item {{ request()->is('admin/ruangan*', 'admin/barang*') ? 'active open' : '' }}">
+            <!-- <li class="menu-item {{ request()->is('admin/ruangan*', 'admin/barang*') ? 'active open' : '' }}">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
                     <i class="menu-icon tf-icons bx bx-building-house"></i>
                     <div>Sarana & Prasarana</div>
@@ -113,7 +113,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
 
             <!-- Modul Absensi QR Code -->
             <li class="menu-item {{ request()->is('admin/absensi*') ? 'active open' : '' }}">
@@ -136,12 +136,12 @@
             </li>
 
             <!-- Menu Keuangan & SPP -->
-            <li class="menu-item {{ request()->is('admin/keuangan*') ? 'active' : '' }}">
+            <!-- <li class="menu-item {{ request()->is('admin/keuangan*') ? 'active' : '' }}">
                 <a href="{{ route('admin.keuangan.index') }}" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-wallet"></i>
                     <div>Keuangan & SPP</div>
                 </a>
-            </li>
+            </li> -->
 
             <!-- Menu Pengumuman Sekolah -->
             <li class="menu-item {{ request()->is('admin/pengumuman*') ? 'active' : '' }}">
@@ -164,12 +164,12 @@
             </li>
 
             <!-- Menu Kelola Landing Page (Welcome) -->
-            <li class="menu-item {{ request()->routeIs('admin.setting.landing') ? 'active' : '' }}">
+            <!-- <li class="menu-item {{ request()->routeIs('admin.setting.landing') ? 'active' : '' }}">
                 <a href="{{ route('admin.setting.landing') }}" class="menu-link">
                     <i class="menu-icon tf-icons bx bx-globe text-primary"></i>
                     <div class="fw-bold text-primary">Kelola Landing Page</div>
                 </a>
-            </li>
+            </li> -->
 
             <!-- Menu Kelola Hak Akses User -->
             <li class="menu-item {{ request()->is('admin/hak-akses*') ? 'active' : '' }}">
